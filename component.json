@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "requirejs": "http://requirejs.org/docs/release/2.1.1/minified/require.js"
+  }
+}

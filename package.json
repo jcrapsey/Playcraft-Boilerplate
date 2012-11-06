@@ -1,0 +1,46 @@
+{
+  "name": "playcraft-platform-builder",
+  "description": "A build tool designed to help with playcraft development and deployment to multiple platforms.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jcrapsey/playcraft-platform-builder",
+  "author": {
+    "name": "Jeremy Crapsey",
+    "email": "jcrapsey@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Riscii/playcraft-platform-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Riscii/playcraft-platform-builder/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Riscii/playcraft-platform-builder/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "",
+  "engines": {
+    "node": "0.8.11",
+    "npm": "1.1.49"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install"
+  },
+  "devDependencies": {
+    "grunt-requirejs": "~0.2.14",
+    "grunt-contrib-coffee": "~0.3.2",
+    "grunt-contrib-clean": "~0.3.1",
+    "grunt-contrib-compress": "~0.3.2",
+    "grunt-contrib-copy": "~0.3.0",
+    "grunt-contrib-jade": "~0.3.1",
+    "grunt-contrib-requirejs": "~0.3.0"
+  },
+  "keywords": [],
+  "dependencies": {
+    "express": "~3.0.0rc5",
+    "bower": "~0.2.0",
+    "grunt-contrib": "~0.2.0"
+  }
+}
