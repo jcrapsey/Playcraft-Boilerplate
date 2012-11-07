@@ -2,6 +2,8 @@
 ##############
 !dist/cocoon/game.zip
 
+dist
+
 # Node #
 ########
 node_modules
